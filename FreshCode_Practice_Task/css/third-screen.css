@@ -1,0 +1,70 @@
+/* third-screen.css */
+.third-screen {
+    background-color: #f0f9ff;
+    padding: 5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+}
+
+.hero-third-screen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+}
+
+.hero-third-screen__text {
+    flex: 1;
+}
+
+.hero-third-screen__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.hero-third-screen__desc {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.hero-third-screen__picture {
+    flex: 1;
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.btn-info {
+    background-color: #7ae5fd;
+    border: none;
+    border-radius: 5.4375rem;
+    padding: 1rem 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--global-text-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-info:hover {
+    background-color: #66d1e8;
+}
+
+input {
+    background-color: #F9FADF;
+}
